@@ -1,1 +1,0 @@
-C:\Users\JL\Desktop\Serveur\FXServer.exe +exec server.cfg +set onesync on +set onesync legacy +set onesync_enableInfinity 1 +set sv_enforceGameBuild 2802
