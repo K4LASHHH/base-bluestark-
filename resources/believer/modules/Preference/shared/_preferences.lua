@@ -1,0 +1,1 @@
+GM.Preferences = GM.Preferences or {}

@@ -1,0 +1,1 @@
+GM.Jail = GM.Jail or {}

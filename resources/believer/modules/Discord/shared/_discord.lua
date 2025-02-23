@@ -1,0 +1,1 @@
+GM.Discord = GM.Discord or {}

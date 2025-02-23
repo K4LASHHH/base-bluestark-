@@ -1,0 +1,1 @@
+GM.Anticheat = GM.Anticheat or {}

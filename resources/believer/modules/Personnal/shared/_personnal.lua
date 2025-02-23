@@ -1,0 +1,1 @@
+GM.Personnal = GM.Personnal or {}

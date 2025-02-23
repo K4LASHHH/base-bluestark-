@@ -1,0 +1,304 @@
+<html>
+    <head>
+        <title>Kibra-Mechanics</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="jquery.minicolors.js"></script>
+        <link rel="stylesheet" href="jquery.minicolors.css">
+    </head>
+    <body>
+        <div id="mContainer">
+            <div class="CarInfoTable">
+                <div class="Header">
+                    <h1><span id="CarModelName"></span></h1>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>TOP SPEED</h4>
+                    <div class="sagbolge"><p><span id="MaxSpeed"></p></div>
+                    <div class="DolumBar">
+                        <div id="topspeed" class="InBar"></div>
+                    </div>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>Handling</h4>
+                    <div class="sagbolge"><p>%<span id="handlingyuzde"></span></p></div>
+                    <div class="DolumBar">
+                        <div id="handlingbar" class="InBar"></div>
+                    </div>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>BRAKE</h4>
+                    <div class="sagbolge"><p>%<span id="frenyuzde"></span></p></div>
+                    <div class="DolumBar">
+                        <div id="brakebar" class="InBar"></div>
+                    </div>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>Acceleration</h4>
+                    <div class="sagbolge"><p>%<span id="accel"></span></p></div>
+                    <div class="DolumBar">
+                        <div id="Accelerationbar" class="InBar"></div>
+                    </div>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>Weight</h4>
+                    <div class="sagbolge"><p><span id="vehicleweight"></span>kg</p></div>
+                    <div class="DolumBar">
+                        <div id="weightbar" class="InBar"></div>
+                    </div>
+                </div>
+                <div id="ayarMeme" class="ArabaPart">
+                    <h4>Turbo</h4>
+                    <div class="sagbolge"><p><span id="turbodurum"></span></p></div>
+                    <div class="DolumBar">
+                        <div class="InBar" id="turbobar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="PlateChangeTemplate">
+                <div id="buttonplate" class="PlateChangeButton">
+                    <h3>Change Car Plate</h3>
+                    <p>$<span id="carplateprice"></span></p>
+                </div>
+                <div id="FixClean" class="RandomButton">
+                    <h3><i class="fa-regular fa-wrench"></i> FIX/CLEAN - <span id="FixlemeUcret">$5000</span></h3>
+                </div>
+                <div id="OdemeYap" class="amaoynanmis RandomButton">
+                    <h6 class="oynanmis"><i class="fa-regular fa-credit-card"></i> <span id="paybutton"></span></h6>
+                </div>
+            </div>
+            <div class="basket"></div>
+            <div class="CarCustomizeAllTable">
+                <div id="SolaKaydir" class="LeftScrollButton">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div id="SagaKaydir" class="RightScrollButton">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="CarCustomize">
+                    <div class="XPoart">
+                        <center><i class="fa-thin fa-engine"></i></center>
+                        <h3>Engine</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center><i class="fa-solid fa-sliders"></i></center>
+                        <h3>Suspension</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center><i class="fa-sharp fa-solid fa-palette"></i></center>
+                        <h3>Color</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center><i class="fa-solid fa-tire"></i></center>
+                        <h3>Wheels</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center>
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </center>
+                        <h3>Body Parts</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center><i class="fa fa-bullhorn" aria-hidden="true"></i></center>
+                        <h3>Horns</h3>
+                    </div>
+                    <div class="XPoart">
+                        <center><i class="fa-brands fa-neos"></i></center>
+                        <h3>Neons</h3>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- <div class="InfoBox">
+                <div id="MouseControl" class="HaraketButonu">
+                    <center><i class="fa-light fa-arrow-pointer"></i></center>
+                    <p><span id="pressmouseactive"></span></p>
+                </div>
+                <div id="OdemeYap" class="HaraketButonu2">
+                    <center><i class="fa-solid fa-credit-card"></i></center>
+                    <p><span id="paybutton"></span></p>
+                </div>
+            </div> -->
+        </div>
+        <div class="orospular"></div>
+        <div class="Homelander"></div>
+        <div class="senayritrende"></div>
+        <!-- <div class="PlateBoard">
+            <h1>Enter a new license plate</h1>
+            <center><input type="text" class="plakatext" value="ESX KISS"></center>
+            <div id="iptal" class="McButt"><p>Cancel</p></div>
+            <div class="McButt"><p><i class="fa-solid fa-cart-plus"></i> Add to basket</p></div>
+        </div> -->
+        <!-- <div class="Notify">
+            <p><span style="color: rgb(62 255 2 / 43%);"><i style="font-size: 2vh;"class="fa-duotone fa-check"></i></span> ${text}</p>
+        </div> -->
+            <!-- <div class="Notify">
+                <p><span style="color: rgb(62 255 2 / 43%);"><i style="font-size: 2vh;"class="fa-duotone fa-check"></i></span> You have activated mouse movement</p>
+            </div> -->
+        <div id="bossMenuMain" class="BossMenu">
+            <div class="BossMenu-Header">
+                <div class="MechanicNameBox">
+                    <p><span id="MechanicName"></span></p>
+                </div>
+                <div class="Memati">
+                    <div class="minikdaire"></div>
+                    <h1><span id="MechanicOwner"></span> </h1>
+                </div>
+            </div>
+            <div class="SolPanel">
+                <div class="MechanicUnBox">
+                    <p>Total Assets</p>
+                    <div class="LanMal">
+                        <p>$<span id="MechanicMoney"></span></p>
+                    </div>
+                    <button id="ParaSalIslemlerKardes" class="ButtonMini">Money Transactions</button>
+                </div>
+                <div class="MechanicUnBox">
+                    <p>Employees</p>
+                    <div class="LanMal">
+                        <p><span id="CalisanSayi"></span></p>
+                    </div>
+                    <button id="Calisanlarim" class="ButtonMini">Labor Management</button>
+                </div>
+                <div class="AltPanel">
+                    <div class="AltMenu">
+                        <div style="top: 0vh; left: -1vh;" class="MechanicUnBox">
+                            <p>Sell Company</p>
+                            <div class="LanMal">
+                                <p style="top: 4vh; font-size: 1.6vh;">Transfers company ownership to the closest person near you.</p>
+                            </div>
+                            <button style="top: 4.2vh;" id="MekanikSat" class="ButtonMini">Transfer Ownership</button>
+                        </div>
+                        <div style="top: 0vh; left: -1vh;" class="MechanicUnBox">
+                            <p style="font-size: 2.1vh;">Percentage of Employees</p>
+                            <div id="BurayaGelecek" class="LanMal"></div>
+                            <button id="UpdateWage" style="top: 2.3vh" class="ButtonMini">Update</button>
+                        </div>
+                        <div style="top: 0vh; left: -1vh;" class="MechanicUnBox">
+                            <p style="font-size: 1.5vh;">Mechanic Name</p>
+                            <div id="BurayaGelecek2" class="LanMal"></div>                        
+                            <button id="UpdateMechanicName" style="top: 1vh;top: 4.3vh;" class="ButtonMini">Update</button>
+                        </div>
+                        <div style="top: 0vh; left: -1vh;" class="MechanicUnBox">
+                            <p style="font-size: 1.5vh;">Customer Discount Rate</p>
+                            <div id="BurayaGelecek3" class="LanMal"></div>                        
+                            <button id="UpdateRate" style="top: 1vh;top: 4.3vh;" class="ButtonMini">Update</button>
+                        </div>
+                        <div style="top: 0vh; left: -1vh;" class="MechanicUnBox">
+                            <p style="font-size: 1.5vh;">Vehicle Repair and Cleaning Fee</p>
+                            <div id="BurayaGelecek4" class="LanMal"></div>                        
+                            <button id="UpdateRepair" style="top: 1vh;top: 4.3vh;" class="ButtonMini">Update</button>
+                        </div>
+                    </div>
+                    <div class="Calisanlar"></div>
+                    <div id="Orospular" class="ParaIslem">
+                        <div class="ParaKutusu">
+                            <h1>DEPOSIT MONEY</h1>
+                            <input id="YatirilacakMiktar" type="number" class="ParaMiktar" placeholder="$50000">
+                            <button id="Yatir"class="Onay">Deposit</button>
+                        </div>
+                        <div class="ParaKutusu">
+                            <h1>WITHDRAW MONEY</h1>
+                            <input id="CekilecekMiktar" type="number" class="ParaMiktar" placeholder="$50000">
+                            <button id="Cek" class="Onay">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SagPanel">
+                <div class="OdemeGecmisi">
+                    <div class="OdemeGecmisiHeader">
+                        <h1><button id="TabloyuBaa" class="MinikSilButonu"><i class="fa-solid fa-trash"></i></button>Customer History</h1>
+                    </div>
+                    <div class="ListelenecekKisim">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FaturaKesilecekMenusu">
+            <div class="NeHeqader">
+                <h1>Select Person to Invoice</h1>
+            </div>
+            <div class="OyuncularGelecek">    
+                <!-- <div class="Oyuncu1">
+                    <h3>SOURCE 1</h3>
+                    <p>KENAN BIRKAN</p>
+                    <h4>(Car Owner)</h4>
+                </div>          -->
+            </div>
+        </div>
+        <div class="FaturalandirmaPanel">
+            <div class="SepetinSolu">
+                <div class="BuraHeader">
+                    <h1><span id="mechanicName"></span> | Create Invoice</h1>
+                </div>
+                <div class="UstundekiYer">
+                    <h1>Modifications List</h1>
+                </div>
+                <div class="UrunSepeti">
+                    <!-- <div class="Urun1">
+                        <div class="Taraf">
+                            <button class="Cinyurt"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                        <div class="Kesme">
+                            <h1>Level 5 Spoilers</h1>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="SepetinSagi">
+                <div id="Sepeticerik">
+                    <div class="SepetOnemli">
+                        <h1>PAY</h1>
+                    </div>
+                    <div class="NameKutuBaba">
+                        <h3>Invoice Person: <font style="font-weight: 600;"><span id="KesilecekKisi"></font></h3>
+                        <button id="TekrarEskiyiAc" class="changeInvoicePerson">Change Person</button>
+                    </div>
+                    <div class="OdenecekTutarKutusu">
+                        <h1>AMOUNT TO BE PAID</h1>
+                        <p><font style="font-weight: 600;">$<span id="toplamUcret"></span></font></p>
+                    </div>
+                    <div class="CalisanKutusu">
+                        <h3>The amount you will receive: <font style="font-weight: 600;">$<span id="bizimkininalacagi"></span></font></h3>
+                    </div>
+                </div>
+                <div id="YenileKardesim" class="ButtonKisim"></div>
+            </div>
+        </div>
+        <div class="KabulEttinmiTablosu">
+            <div class="BunadaHeader">
+                <h1>Vehicle Modification Invoice</h1>
+            </div>
+            <div id="Kemanci" class="Liste"></div>
+            <div class="InfoBox5">
+                <p>Do you want to make the <font style="font-weight:600;"><span id="Param">$70000</span></font> modification?</p>
+            </div>
+            <div class="buttonbeyler">
+              
+            </div>
+        </div>
+        <div class="TowTruckMenu">
+            <div class="TowTruckHeader">
+                <h1>Tow Trucks Spawn Menu</h1>
+            </div>
+            <div class="TowTrucksList">
+                <!-- <div class="TowTruck1">
+                    <center><img src="https://docs.fivem.net/vehicles/flatbed.webp"></center>
+                    <h1>FLATBED</h1>
+                </div> -->
+            </div>
+        </div>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </body>
+</html>

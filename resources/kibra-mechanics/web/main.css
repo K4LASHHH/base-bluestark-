@@ -1,0 +1,1761 @@
+body {
+    background-image: url(img/back.png);
+    overflow-y: hidden;
+}
+
+.Homelander {    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: .10vh;
+    top: 0vh;
+    left: 0vh;
+    display: none;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.rgba {
+    width: 10vh;
+    height: 5vh;
+    border: 1px;
+    outline: 0;
+    background: #00000000;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+#mContainer {
+    background-color: transparent;
+    width: 100%;
+    display: none;
+    height: 100%;
+}
+
+.CarInfoTable {
+    background-color: transparent;
+    width: 37.5vh;
+    position: relative;
+    border-radius: .3vh;
+    top: 4vh;
+    left: 3vh;
+    height: 56vh;
+}
+
+.LeftScrollButton {
+    background-color: rgba(0,0,0,0.3);
+    width: 10vh;
+    float: left;
+    position: relative;
+    left: 2.5vh;
+    font-size: 3vh;
+    text-align: -webkit-center;
+    cursor: pointer;
+    color: #ccc;
+    border-radius: .4vh;
+    top: 0.5vh;
+    height: 8.8vh;
+}
+
+.RightScrollButton {
+    background-color: rgba(0,0,0,0.3);
+    width: 10vh;
+    float: right;
+    position: relative;
+    left: -3vh;
+    font-size: 3vh;
+    text-align: -webkit-center;
+    cursor: pointer;
+    color: #ccc;
+    border-radius: .4vh;
+    top: 0.5vh;
+    height: 12.9vh;
+}
+
+.LeftScrollButton, .RightScrollButton i {
+    padding-top: 41px;
+}
+
+.LeftScrollButton:hover, .RightScrollButton:hover  {
+    background-color: #b9b9b9;
+    color: #000;
+    transition: 0.5s;
+}
+.Header {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 9vh;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10.3vh;
+}
+
+.Header:hover {
+    transition: 0.5s;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.Header h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 4vh;
+    letter-spacing: 10px;
+    font-weight: 100;
+    top: 2vh;
+    left: 1vh;
+}
+
+.ArabaPart {
+    background-color: rgb(0 0 0 / 20%);
+    width: 100%;
+    height: 7vh;
+    margin-top: -1vh;
+    color: #fff;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 10.3vh;
+}
+
+.ArabaPart:hover {
+    transition: background-color 0.5s ease-in-out;
+    background-color: #ccc;
+    color: #000;
+}
+
+.ArabaPart h4 {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 2vh;
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 2.5vh;
+    top: 1.5vh;
+}
+
+.ArabaPart p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.3vh;
+    bottom: -1.6vh;
+    padding-right: 25px;
+    text-align: right;
+    position: relative;
+}
+
+.DolumBar {
+    background-color: #2e2e2e;
+    width: 32vh;
+    border-radius: 10vh;
+    position: relative;
+    bottom: 3.2vh;
+    margin: auto;
+    height: 0.6vh;
+}
+
+.InBar {
+    height: 100%;
+    border-radius: 10vh;
+    max-width: 100%;
+    background: #9d9d9d;
+}
+
+.sagbolge {
+    background-color: transparent;
+    width: 10vh;
+    position: relative;
+    left: 27.5vh;
+    border-radius: .3vh;
+    bottom: 5vh;
+    height: 3vh;
+}
+
+.PlateChangeTemplate {
+    background-color: transparent;
+    width: 39vh;
+    height: 15vh;
+    position: relative;
+    left: 3vh;
+    top: 8vh;
+    border-radius: .4vh;
+}
+
+.PlateChangeTemplate h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 2vh;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.plateput {
+    background-color: transparent;
+    border: 1px;
+    width: 27vh;
+    font-weight: 600;
+    font-size: 2vh;
+    color: #c5c5c5;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    height: 5vh;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.CenabettinStyle {
+    background-color: #c3c3c3;
+    width: 3.4vh;
+    border-radius: .2vh;
+    cursor: pointer;
+    height: 3vh;
+    border: 1px;
+}
+
+.CenabettinStyle:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+/* .CarCustomize {
+    background-color: transparent;
+    max-width: max-content;
+    width: fit-content;
+    position: relative;
+    top: 12.1vh;
+    margin: auto;
+    height: 14vh;
+    border-radius: .4vh;
+    overflow: auto;
+    white-space: nowrap;
+} */
+
+.CarCustomizeAllTable {
+    background-color: transparent;
+    width: 172vh;
+    position: relative;
+    top: 11.5vh;
+    margin: auto;
+    height: 17vh;
+    border-radius: .4vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.CarCustomize {
+    position: relative;
+    top: 0.3vh;
+    max-width: 143vh;
+    width: fit-content;
+    margin: auto;
+    background: transparent;
+    overflow-y: hidden;
+    height: 15vh;
+    border-radius: .4vh;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.XPoart {
+    background-color: rgba(0,0,0,0.3);
+    width: 15vh;
+    height: 13vh;
+    margin-left: 1vh;
+    cursor: pointer;
+    position: relative;
+    overflow: auto;
+    transition: .4s;
+    left: -1vh;
+    display: inline-block;
+    top: 0.2vh;
+    border-radius: 1.4vh;
+    color: #fff;
+}
+
+.XPoart p {
+    text-align: center;
+    position: relative;
+    font-size: 1.2vh;
+    font-weight: 200;
+    top: -1.2vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.XPoart h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.7vh;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.XPoart h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5vh;
+    position: relative;
+    top: -1vh;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.XPoart i {
+    font-size: 4.5vh;
+    margin-top: 2vh;
+}
+
+.XPoart:hover, .XPoart h3:hover, .XPoart i:hover {
+    transition: 0.4s;
+    box-shadow: inset 0 0 0 150px #ccc;
+    color :#000;
+}
+
+.PlateChangeButton {
+    background-color: rgba(0,0,0,0.3);
+    width: 37.5vh;
+    position: relative;
+    color: #d5d0d0;
+    left: 0vh;
+    cursor: pointer;
+    height: 7vh;
+    border-radius: 5.4vh;
+}
+
+.PlateChangeButton:hover {
+    transition: 0.5s;
+    background-color: #ccc;
+    color: #000;
+}
+
+.PlateChangeButton h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.7vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.PlateChangeButton p {
+    text-align: center;
+    position:relative;
+    top: -1vh;
+    font-size: 1.7vh;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+}
+
+.suleyman {
+    animation: slide-in 1s ease forwards;
+}
+
+.suleymanV {
+    animation: slide-up 1s ease forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(20%);
+    }
+    100% {
+        opacity: 0;
+		pointer-events: none;
+        transform: translateY(0);
+    }
+}
+
+
+.Notify {
+    background-color: rgba(0,0,0,0.5);
+    color: #bdbdbd;
+    padding: 0px 20px;
+    height: 6vh;
+    width: fit-content;
+    border-radius: 5.3vh;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(62 255 2 / 32%);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Notify p {
+    font-size: 1.7vh;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.PlateBoard {
+    background-color: rgba(0,0,0,0.3);
+    width: 46vh;
+    height: 18vh;
+    border-radius: .3vh;
+    position: absolute;
+    left: 37vw;
+    top: 26vh;
+}
+
+.PlateBoard h1 {
+    font-size: 2.7vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-family: 'Inter', sans-serif;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.plakatext {
+    background-color: transparent;
+    width: 22vh;
+    position: absolute;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-family: 'Inter', sans-serif;
+    left: 12vh;
+    top: 7vh;
+    color: #ccc;
+    border: 1px;
+    height: 5vh;
+}
+
+.McButt {
+    background-color: #d7d7d7;
+    width: fit-content;
+    margin-left: 1vh;
+    padding: 0px 10px;
+    text-align: center;
+    cursor: pointer;
+    height: 3.6vh;
+    position: relative;
+    left: 10.5vh;
+    color: #000;
+    top: 6vh;
+    border-radius: .3vh;
+    float: left;
+}
+
+.McButt p {
+    font-family: 'Inter', sans-serif;
+    top: -0.4vh;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4vh;
+}
+
+.McButt:hover {
+    background-color: transparent;
+    color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+    transition: .3s;
+}
+
+/* #FixClean {
+    background-color: #085a99;
+}
+
+#AllOpenDoorsButton {
+    background-color: #169636;
+} */
+
+.RandomButton {
+    background-color: rgba(0,0,0,0.3);
+    width: 47%;
+    border-radius: 9.3vh;
+    position: relative;
+    left: -0.7vh;
+    float: left;
+    color: #fff;
+    margin-left: 7px;
+    cursor: pointer;
+    margin-top: 1.6vh;
+    height: 6vh;
+}
+
+.amaoynanmis {
+    background-color: rgb(82, 167, 43);
+    color: #fff;
+}
+
+.amaoynanmis:hover {
+    transition: .4s;
+    background-color: rgb(82, 167, 43);
+    box-shadow: 0 0 0px rgb(82, 167, 43), 0 0 0px rgb(82, 167, 43), 0 0 8px rgb(82, 167, 43);
+}
+
+.RandomButton:hover {
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 50px #ccc;
+    color: #000;
+}
+
+.RandomButton h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 1.3vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.oynanmis {
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    font-weight: 500;
+    bottom: 1.5vh;
+    position: relative;
+    text-align: center;
+    font-family: 'Outfit';
+}
+
+.RandomButton p {
+    text-align: center;
+    position:relative;
+    top: -1vh;
+    font-size: 1.7vh;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+}
+
+.InfoBox {
+    background-color: transparent;
+    width: 11vh;
+    position: absolute;
+    left: 93.5vw;
+    top: 30vh;
+    height: 10vh;
+}
+
+.HaraketButonu {
+    background-color: rgb(175 175 175 / 63%);
+    width: 8vh;
+    height: 10vh;
+    cursor: pointer;
+    position: relative;
+    left: 0.6vh;
+    color: #ccc;
+    padding: 5px 1px;
+    border-radius: .3vh;
+    margin: auto;
+}
+
+.HaraketButonu:hover {
+    transition: 0.5s;
+    background-color: #ccc;
+    color: #000;
+}
+
+.HaraketButonu2 {
+    background-color: #1aa742;
+    width: 8vh;
+    height: 9vh;
+    text-align: center;
+    position: absolute;
+    top: 12vh;
+    left: 2vh;
+    padding: 9px 1px;
+    cursor: pointer;
+    color: rgb(246, 246, 246);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius:.3vh;
+    margin: auto;
+}
+
+.HaraketButonu2:hover {
+    transition: 0.5s;
+    color: #fff;
+    box-shadow: 0 0 0px rgb(82, 167, 43), 0 0 0px rgb(82, 167, 43), 0 0 8px rgb(82, 167, 43);
+}
+
+.HaraketButonu2 i {
+    font-size: 2.5vh;
+    padding-top: 15px;
+}
+
+.HaraketButonu p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    text-align: center;
+}
+
+.HaraketButonu i {
+    font-size: 2.5vh;
+    padding-top: 15px;
+}
+
+.MechanicBasket {
+    background-color: rgba(0,0,0,0.3);
+    width: 32vh;
+    height: 43vh;
+    position: fixed;
+    left: 71vw;
+    top: 9vh;
+    margin: auto;
+    border-radius: .4vh;
+}
+
+.mechanicbasketheader {
+    background-color: transparent;
+    width: 100%;
+    height: 4.5vh;
+    position: relative;
+    top: -1vh;
+    border-radius: .4vh;
+}
+
+.mechanicbasketheader h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5vh;
+    font-weight: 200;
+    letter-spacing: 10px;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sepetlist {
+    background-color: transparent;
+    width: 100%;
+    height: 29.5vh;
+    position: relative;
+    top: -1vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: .4vh;
+}
+
+.sepetUrun {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 0.5vh;
+    position: relative;
+    top: 1vh;
+    height: 4vh;
+    border-radius: .3vh;
+}
+
+.sepetsag {
+    background-color: transparent;
+    width: 82%;
+    height: 100%;
+    border-radius: .3vh;
+    float: right;
+}
+
+.sepetsol {
+    background-color: transparent;
+    width: 18%;
+    height: 100%;
+    border-radius: .3vh;
+    float: left;
+}
+
+.sepetsol p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.9vh;
+    position: absolute;
+    top: -0.9vh;
+    left: 2vh;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+}
+
+.delbutton {
+    background-color: transparent;
+    width: 3vh;
+    height: 3vh;
+    color: #ffffff6e;
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(155 155 155 / 26%);
+    cursor: pointer;
+    border-radius: 4.3vh;
+}
+
+.delbutton:hover {
+    transition: 0.5s;
+    border-color: rgba(255, 255, 255, 0.822);
+    color: #fff;
+}
+
+.sepetsag p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.9vh;
+    text-align: left;
+    position: relative;
+    bottom: 0.6vh;
+    font-weight: 600;
+    color: #bfbfbf;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+
+.OdeButton {
+    background-color: #b3b3b3;
+    width: 94%;
+    height: 5vh;
+    border-radius: .3vh;
+    position: relative;
+    top: -1vh;
+    cursor: pointer;
+    margin: auto;
+}
+
+.OdeButton p {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.BossMenu {
+    background: rgba(0,0,0,0.6);
+    width: 72vw;
+    margin: auto;
+    display: none;
+    position: relative;
+    top: 9vh;
+    height: 74vh;
+    border-radius: 1.4vh;
+}
+
+.BossMenu-Header {
+    background-color: transparent;
+    width: 100%;
+    height: 8vh;
+    border-radius: .4vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.MechanicNameBox {
+    background-color: transparent;
+    width: fit-content;
+
+    height: 100%;
+    border-radius: .4vh;   
+}
+
+.MechanicNameBox p {
+    font-family: 'Outfit', sans-serif;
+    color: #d7d7d7;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 22px 25px;
+    font-size: 3.5vh;
+}
+
+.MechanicNameBox p:hover {
+    transition: 0.5s;
+    color: #fff;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.MechanicUnBox {
+    background: rgb(0 0 0 / 20%);
+    width: 34vh;
+    float: left;
+    position: relative;
+    left: 1vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    top: 2vh;
+    height: 22vh;
+    border-radius: 1.4vh;
+}
+
+.LanMal {
+    background-color: transparent;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    top: -2vh;
+}
+
+.MechanicUnBox p, .MechanicUnBox5 p {
+    font-family: 'Outfit', sans-serif;
+    color: #858282;
+    text-transform: uppercase;
+    position: relative;
+    top: 1vh;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.LanMal p {
+    font-family: 'Outfit', sans-serif;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    font-size: 5vh;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.LanMal p:hover {
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.mechaniclogo {
+    width: 8vh;
+    height: 8vh;
+    -webkit-transition: all 0.5s;
+    position: relative;
+    top: 1vh;
+    -webkit-filter: invert(100%);
+}
+
+.mechaniclogo:hover{-webkit-filter:none;}
+
+
+.ButtonMini {
+    width: 96%;
+    font-size: 1.5vh;
+    left: 0vh;
+    height: 4vh;
+    border: 1px transparent;
+    background: rgb(52 52 52 / 50%);
+    float: right;
+    font-family: 'Outfit', sans-serif;
+    color: #b6b6b6cc;
+    margin-right: 0.6vh;
+    position: relative;
+    border-style: solid;
+    cursor: pointer;
+    right: 0.6vh;
+    top: 0.8vh;
+    border-radius: 1.4vh;
+}
+
+.ButtonMini:hover {
+    transition: 0.5s;
+    color: #000000;
+    background: #ccc;
+}
+.ButtonMini i {
+    font-size: 1.6vh;
+}
+
+.SelectedMiNeYarramdir {
+    background-color: red;
+    width: 10px;
+    height: 5px;
+    border-radius: .3vh;
+    border: 1px;
+}
+
+.SolPanel {
+    background-color: transparent;
+    width: 55%;
+    float: left;
+    border-radius: .4vh;
+    height: 89%;
+}
+
+.SagPanel {
+    background-color: transparent;
+    width: 36%;
+    float: right;
+    border-radius: .4vh;
+    height: 89%;
+}
+
+.OdemeGecmisi {
+    background-color: rgb(0 0 0 / 25%);
+    width: 27vw;
+    height: 60vh;
+    position: relative;
+    left: -7vh;
+    top: -6.8vh;
+    border-radius: 1.4vh;
+}
+
+.OdemeGecmisiHeader {
+    background-color: transparent;
+    width: 100%;
+    height: 8vh;
+    border-radius: .4vh;
+    box-shadow: 0px 42px 4px -42px rgb(114 114 114 / 65%);
+}
+
+.OdemeGecmisiHeader h1 {
+    font-family: 'Outfit', sans-serif;
+    color: #808080;
+    font-weight: 300;
+    font-size: 2.5vh;
+    padding-top: 29px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ListelenecekKisim {
+    background-color: transparent;
+    width: 100%;
+    overflow-x: auto;
+    height: 52vh;
+    border-radius: .4vh;
+}
+
+.byCengiz {
+    background-color: transparent;
+    width: 100%;
+    height: 7vh;
+    border-radius: .4vh;
+    box-shadow: 0px 39px 2px -37px rgb(114 114 114 / 65%);
+}
+
+.solLeft {
+    background-color: transparent;
+    width: 59%;
+    height: 100%;
+    float: left;
+    border-radius: .4vh;
+}
+
+.sagRight {
+    background-color: transparent;
+    width: 41%;
+    height: 100%;
+    float: right;
+    border-radius: .4vh;
+}
+
+.solLeft p {
+    display: inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2vh;
+    padding: 0px 16px;
+    position: relative;
+    top: 0.5vh;
+    font-weight: 400;
+    left: 2vh;
+    text-align: left;
+    color: #ebebeb;
+}
+
+.isimkutusu {
+    background-color: transparent;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    top: 0vh;
+    height: 100%;
+}
+
+.isimkutusu p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2vh;
+    text-align: left;
+    cursor: pointer;
+    color: #919191;
+}
+
+.cemilipekci {
+    background-color: red;
+    width: 15%;
+    height: 100%;
+    border-radius: .4vh;
+}
+
+.sagRight p {
+    color: #5edf55;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2vh;
+    display: inline-block;
+}
+
+.sagRight h6 {
+    font-size: 1.4vh;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    font-weight: 300;
+    padding-left: 14px;
+    display: inline-block;
+    top: 0vh;
+    color: #adadad;
+}
+
+.isimkutusu p:hover {
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.Memati {
+    background-color: transparent;
+    width: fit-content;
+    padding-left: 14px;
+    padding-right: 47px;
+    position: relative;
+    top: -8vh;
+    height: 100%;
+    float: right;
+    border-radius: .4vh;
+}
+
+.minikdaire {
+    background-color: #139b13;
+    position: relative;
+    top: 4vh;
+    float: left;
+    width: 7px;
+    height: 6px;
+    border-radius: 10vh;
+}
+
+.Memati h1 {
+    color: #a6a2a2;
+    font-family: 'Outfit', sans-serif;
+    left: 2vh;
+    top: 0.5vh;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.Memati h1:hover {
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.ExitButton {
+    background-color: transparent;
+    width: 4vh;
+    border-radius: .3vh;
+    position: relative;
+    top: -0.3vh;
+    color: #00aac5;
+    cursor: pointer;
+    height: 4vh;
+    border: 1px;
+}
+
+.AltPanel {
+    background-color: transparent;
+    width: 69vh;
+    position: relative;
+    top: 25vh;
+    left: 2vh;
+    /* display: none; */
+    height: 37vh;
+    border-radius: .4vh;
+}
+
+.Calisanlar {
+    background-color: transparent;
+    width: 71vh;
+    position: absolute;
+    overflow-x: auto;
+    display: none;
+    height: 38vh;
+    border-radius: .4vh;
+}
+
+.AltMenu {
+    background-color: transparent;
+    width: 71vh;
+    position: absolute;
+    overflow-x: auto;
+    /* display: none; */
+    height: 38vh;
+    border-radius: .4vh;
+}
+
+.ParaIslem {
+    background-color: transparent;
+    width: 71vh;
+    position: absolute;
+    overflow-x: auto;
+    display: none;
+    height: 38vh;
+    border-radius: .4vh;
+}
+
+.MechanicUnBox5 {
+    background: rgb(0 0 0 / 20%);
+    width: 34vh;
+    float: left;
+    position: relative;
+    left: -1vh;
+    margin-top: 2vh;
+    display: inline-block;
+    margin-left: 1vh;
+    top: -1vh;
+    height: 22vh;
+    border-radius: .4vh;
+}
+
+.gorunmezUnput {
+    background-color: transparent;
+    width: 20vh;
+    height: 6vh;
+    position: relative;
+    left: 6vh;
+    top: 3vh;
+    border: 1px;
+    font-family: 'Outfit', sans-serif;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    font-size: 5vh;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.ParaKutusu {
+    background-color: transparent;
+    width: 69vh;
+    position: relative;
+    top: 1vh;
+    left: 0vh;
+    height: 18vh;
+    margin-top: 1vh;
+}
+
+.ParaKutusu h1 {
+    color: #d2d2d2;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 3vh;
+    font-weight: 300;
+}
+
+.ParaMiktar {
+    background: rgb(0 0 0 / 16%);
+    width: 56vh;
+    border-radius: .3vh;
+    position: relative;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    left: 7vh;
+    text-align: center;
+    border: 1px;
+    height: 7vh;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.Onay {
+    background-color: rgb(52 52 52 / 50%);
+    width: 56vh;
+    position: relative;
+    float: left;
+    top: 1vh;
+    border: 1px;
+    font-size: 1.5vh;
+    cursor: pointer;
+    left: 7vh;
+    color: #9b9b9b;
+    font-family: 'Outfit', sans-serif;
+    border-radius: .4vh;
+    height: 5vh;
+}
+
+.Onay:hover {
+    transition: 0.5s;
+    color: #000000;
+    background: #ccc;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c9c9c9;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c9c9c9;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c9c9c9;
+  }
+
+.FaturaKesilecekMenusu {
+    background-color: rgba(0,0,0,0.7);
+    width: 41vw;
+    position: absolute;
+    margin: auto;
+    left: 59vh;
+    height: 55.5vh;
+    display: none;
+    top: 10vh;
+    border-radius: .5vh;
+}
+
+.NeHeqader {
+    background-color: transparent;
+    width: 100%;
+    height: 6vh;
+    border-top-left-radius: .5vh;
+    border-top-right-radius: .5vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.NeHeqader h1 {
+    font-family: 'Outfit', sans-serif;
+    color: #ccc;
+    font-size: 3.6vh;
+    position: relative;
+    top: 0vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.OyuncularGelecek {
+    background-color: transparent;
+    width: 100%;
+    height: 46vh;
+    overflow-y: auto;
+    border-radius: .5vh;
+}
+
+.Oyuncu1 {
+    background-color: rgba(255,255,255,0.1);
+    width: 19vh;
+    height: 16vh;
+    border-radius: .6vh;
+    float: left;
+    margin-left: 1vh;
+    position: relative;
+    color: #8e8e8e;
+    cursor: pointer;
+    left: 1.5vh;
+    top: 1vh;
+    margin-top: 1vh;
+}
+
+.Oyuncu1:hover {
+    background-color: #ccc;
+    transition: 0.5s;
+    color: #000;    
+}
+
+.Oyuncu1 h3 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2vh;
+}
+
+.Oyuncu1 p {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -1vh;
+    text-transform: uppercase;
+    font-size: 2.6vh;
+}
+
+.Oyuncu1 h4 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -1vh;
+    text-transform: uppercase;
+    font-size: 1.3vh;
+}
+
+.FaturalandirmaPanel {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 11vh;
+    left: 44vh;
+    display: none;
+    width: 57vw;
+    height: 60vh;
+    border-radius: .5vh;
+}
+
+.SepetinSolu {
+    background-color: transparent;
+    width: 60%;
+    float: left;
+    height: 100%;
+    border-radius: .5vh;
+}
+
+.SepetinSagi {
+    background-color: transparent;
+    width: 40%;
+    float: right;
+    height: 100%;
+    border-radius: .5vh;
+    box-shadow: -9px 8px 0px -8px rgb(96 96 96 / 43%);
+}
+
+.BuraHeader {
+    background-color: transparent;
+    width: 100%;
+    height: 5vh;
+    border-top-left-radius: .5vh;
+    border-top-right-radius: .5vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.BuraHeader h1 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: #cdcdcd;
+    text-transform: uppercase;
+    font-size: 3.2vh;
+}
+
+.UstundekiYer {
+    background-color: transparent;
+    width: 60.5vh;
+    height: 6vh;
+    position: relative;
+    top: 1vh;
+    left: 2vh;
+    border-radius: .4vh;
+}
+
+.UrunSepeti {
+    background-color: transparent;
+    width: 33vw;
+    height: 40vh;
+    position: relative;
+    overflow-y: auto;
+    left: 2vh;
+    top: 0vh;
+    border-radius: .5vh;
+}
+
+.Urun1 {
+    background-color: transparent;
+    width: 100%;
+    height: 6vh;
+    border-radius: .4vh;
+    margin-top: 1.1vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.Taraf {
+    background-color: transparent;
+    width: 11%;
+    height: 5vh;
+    float: left;
+    position: relative;
+    left: 0vh;
+    border-radius: .2vh;
+}
+
+.Kesme {
+    background-color: transparent;
+    width: 84%;
+    position: relative;
+    left: 0vh;
+    float: left;
+    height: 5vh;
+}
+
+.Cinyurt {
+    background-color: rgba(255,255,255,0.1);
+    width: 5vh;
+    color: #b0acac;
+    cursor: pointer;
+    height: 5vh;
+    border-radius: .5vh;
+    border: 1px;
+}
+
+.Cinyurt:hover {
+    transition: 0.5s;
+    background-color: #ccc;
+    color: #000;
+}
+
+.Kesme h1 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: #898989;
+    text-transform: uppercase;
+    font-size: 2.3vh;
+}
+
+.UstundekiYer h1 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    font-size: 3.2vh;
+}
+
+.SepetOnemli {
+    background-color: transparent;
+    width: 100%;
+    height: 5vh;
+    border-radius: 1px;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.SepetOnemli h1 {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    padding-left: 16px;
+    color: #e2e2e2;
+    text-transform: uppercase;
+    font-size: 3.2vh;
+}
+
+.NameKutuBaba {
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    top: 0vh;
+    height: 10vh;
+}
+
+.NameKutuBaba h3 {
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.changeInvoicePerson {
+    background-color: rgba(255,255,255,0.1);
+    width: 37vh;
+    position: relative;
+    left: 2vh;
+    top: -0.5vh;
+    cursor: pointer;
+    height: 4vh;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    border: 1px;
+    border-radius: .4vh;
+}
+
+.OdenecekTutarKutusu {
+    background-color: transparent;
+    width: 100%;
+    height: 14vh;
+}
+
+.OdenecekTutarKutusu h1 {
+    color: #fff;
+    font-size: 3vh;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.OdenecekTutarKutusu p {
+    color: #fff;
+    font-size: 4vh;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.CalisanKutusu {
+    background-color: transparent;
+    width: 100%;
+    height: 3vh;
+}
+
+.CalisanKutusu h3 {
+    color: #fff;
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.FaturaGonder {
+    background-color: rgba(255,255,255,0.1);
+    width: 38vh;
+    font-family: 'Outfit', sans-serif;
+    color: #ccc7c7;
+    border-radius: 0.5vh;
+    position: relative;
+    border: 1px;
+    font-size: 1.7vh;
+    cursor: pointer;
+    top: 1vh;
+    left: 1vh;
+    height: 6vh;
+}
+
+.FaturaGonder:hover {
+    background-color: #c5c5c5;
+    color: #000;
+    transition: 0.5s;
+}
+
+.KabulEttinmiTablosu {
+    background-color: rgba(0,0,0,0.5);
+    width: 27vw;
+    border-radius: .7vh;
+    height: 60vh;
+    display: none;
+    position: relative;
+    margin: auto;
+    top: 11vh;
+}
+
+.BunadaHeader {
+    background-color: transparent;
+    width: 100%;
+    height: 7vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+    border-radius: .7vh;
+}
+
+.BunadaHeader h1 {
+    font-family: 'Outfit', sans-serif;
+    color: #c0c0c0;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    padding: 21px;
+}
+
+.Liste {
+    background-color: transparent;
+    width: 100%;
+    height: 49%;
+    overflow-y: auto;
+    border-radius: .7vh;
+}
+
+.ListOne {
+    background-color: transparent;
+    width: 100%;
+    height: 6vh;
+    box-shadow: 0px 12px 2px -12px rgb(114 114 114 / 65%);
+}
+
+.ListOne p {
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.4vh;
+}
+
+.InfoBox5 {
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+}
+
+.InfoBox5 p {
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px;
+    font-size: 3vh;
+}
+
+.buttonbeyler {
+    background-color: transparent;
+    width: 100%;
+    height: 15vh;
+}
+
+.MerhabaGey {
+    background-color: rgba(255,255,255,0.1);
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    width: 20vh;
+    font-size: 2vh;
+    height: 6vh;
+    left: 2.6vh;
+    cursor: pointer;
+    top: 3vh;
+    margin-left: 1vh;
+    position: relative;
+    border-radius: 6.4vh;
+    border: 1px;
+}
+
+.MinikSilButonu {
+    background-color: transparent;
+    width: 27px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #c4b8b8;
+    left: -1vh;
+    top: -0.5vh;
+    border: 1px;
+}
+
+.MinikSilButonu:hover {
+    transition: 0.5s;
+    color: #fff;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.TowTruckMenu {
+    background-color: rgba(0,0,0, 0.3);
+    width: 71vh;
+    height: 59vh;
+    border-radius: .6vh;
+    position: relative;
+    margin: auto;
+    display: none;
+    top: 15vh;
+}
+
+.TowTruckHeader {
+    background-color: transparent;
+    width: 100%;
+    border-radius: .6vh;
+    height: 8vh;
+}
+
+.TowTruckHeader h1 {
+    font-family: 'Outfit', sans-serif;
+    color: #d6d5d5;
+    font-weight: 500;
+    font-size: 3.5vh;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 21px;
+}
+
+.TowTrucksList {
+    background-color: transparent;
+    width: 100%;
+    height: 48vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: .6vh;
+}
+
+.TowTruck1 {
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    width: 32vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 2vh;
+    height: 28vh;
+    border-radius: .6vh;
+}
+
+.TowTruck1 img {
+    width: 22vh;
+    height: 14vh;
+    position: relative;
+    top: 3vh;
+}
+
+.TowTruck1 h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 3vh;
+    position: relative;
+    top: 4vh;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+}
+
+.TowTruck1:hover {
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 200px #ccc;
+    color: #000;
+}

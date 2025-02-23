@@ -1,0 +1,1 @@
+GM.Zone = GM.Zone or {}

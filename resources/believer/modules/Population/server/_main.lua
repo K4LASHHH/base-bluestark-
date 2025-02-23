@@ -1,0 +1,1 @@
+GM.Population = GM.Population or {}

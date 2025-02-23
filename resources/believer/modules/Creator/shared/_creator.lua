@@ -1,0 +1,1 @@
+GM.Creator = GM.Creator or {}

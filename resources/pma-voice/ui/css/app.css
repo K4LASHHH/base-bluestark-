@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.voiceInfo {
+    font-family: "Montserrat";
+    position: fixed;
+    text-align: right;
+    bottom: 5px;
+    padding: 0;
+    right: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.talking {
+    color: #33b5e5;
+}
+
+p {
+    margin: 0
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  position: absolute;
+  height: 98%;
+  width: 98%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.input-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 570px;
+  width: 520px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.63);
+  overflow: hidden;
+}
+.input-container h1 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.5vh;
+  color: rgb(51, 153, 255);
+}
+.input-container h2 {
+  position: relative;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.3vh;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: gray;
+}
+.input-container .input-container-textContainer {
+  position: relative;
+  width: 420px;
+  margin: auto;
+  margin-top: 5%;
+}
+.input-container .input-container-input {
+  bottom: 0;
+  width: 420px;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 2.5px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat";
+  color: black;
+  background-color: rgb(204, 204, 204);
+}
+.input-container #input-container-submit {
+  position: relative;
+  width: 420px;
+  height: 50px;
+  bottom: 0;
+  outline: none;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 1.3vh;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 2.5px;
+  background-color: rgb(51, 153, 255);
+}
+
+#allPlaceHolders {
+  position: relative;
+  overflow: auto;
+}
+
+#placeholder {
+  width: 420px;
+  height: 70px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1 @@
+GM.Skin = GM.Skin or {}

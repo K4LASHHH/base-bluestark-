@@ -1,0 +1,1 @@
+GM.Lift = GM.Lift or {}

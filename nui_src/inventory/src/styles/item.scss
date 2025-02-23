@@ -1,0 +1,80 @@
+.inventory-slot {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-width: 5vw;
+    height: 4.5vw;
+    margin: .13vw;
+    border: .1vw solid grey;
+    flex-shrink: 0;
+    border-radius: .25vw;
+    background-color: grey;
+
+    &:hover {
+        border: .1vw solid rgba(21, 165, 248, .55);
+        filter: brightness(110%);
+    }
+
+    .item-name {
+        position: absolute;
+        font-size: .53vw;
+        color: rgb(220, 220, 220);
+        bottom: 0;
+        pointer-events: none;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        background-color: rgba(25, 25, 25, .55);
+        padding: .1vw 0;
+    }
+
+    .slot-id {
+        position: absolute;
+        top: .25vw;
+        right: .45vw;
+        color: rgb(185, 185, 185);
+        font-size: 0.8vw;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    .item-quantity {
+        position: absolute;
+        font-size: .5vw;
+        color: rgb(185, 185, 185);
+        top: .25vw;
+        left: .3vw;
+        pointer-events: none;
+    }
+
+    .broken-icon {
+        position: absolute;
+        top: .1vw;
+        left: .1vw;
+        color: rgb(180, 139, 26);
+        font-size: .75vw;
+    }
+
+    .item-weight {
+        position: absolute;
+        font-size: .5vw;
+        color: rgb(185, 185, 185);
+        top: .25vw;
+        right: .3vw;
+    }
+
+    .item-image {
+        position: relative;
+        width: 65%;
+        height: 65%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        pointer-events: none;
+    }
+}

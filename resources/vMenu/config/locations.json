@@ -1,0 +1,1937 @@
+{
+  "teleports": [
+    {
+      "name": "Example Location",
+      "coordinates": {
+        "X": 472.94,
+        "Y": -3035.96,
+        "Z": 6.2,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 356.1
+    },
+    {
+      "name": "252222222.522225252",
+      "coordinates": {
+        "X": 472.94,
+        "Y": -3036.04663,
+        "Z": -5.012323,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 33.5794067
+    },
+    {
+      "name": "komenda",
+      "coordinates": {
+        "X": 415.8854,
+        "Y": -937.460938,
+        "Z": 34.8262634,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 316.3398
+    },
+    {
+      "name": "BIG SPEED",
+      "coordinates": {
+        "X": 2583.8064,
+        "Y": 3043.84448,
+        "Z": 44.23488,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 318.9384
+    },
+    {
+      "name": "maze bank",
+      "coordinates": {
+        "X": 472.950439,
+        "Y": -3035.74976,
+        "Z": 6.095816,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 355.740082
+    },
+    {
+      "name": "fast",
+      "coordinates": {
+        "X": 2584.717,
+        "Y": 3053.715,
+        "Z": 44.54589,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 315.871826
+    },
+    {
+      "name": "gang",
+      "coordinates": {
+        "X": 2587.20215,
+        "Y": 3053.3064,
+        "Z": 45.1670952,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 311.274261
+    },
+    {
+      "name": "SRHFEEFFFFFFFFEF",
+      "coordinates": {
+        "X": 2583.8064,
+        "Y": 3043.84448,
+        "Z": 15.7711248,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 318.938354
+    },
+    {
+      "name": "30",
+      "coordinates": {
+        "X": -106.906677,
+        "Y": -1562.98,
+        "Z": 32.6996651,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 22.4641113
+    },
+    {
+      "name": "eln",
+      "coordinates": {
+        "X": -1102.573,
+        "Y": 4918.26953,
+        "Z": 215.951553,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 101.375191
+    },
+    {
+      "name": "budynek",
+      "coordinates": {
+        "X": -166.176849,
+        "Y": -991.54425,
+        "Z": 254.131561,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 350.130127
+    },
+    {
+      "name": "wyższy budynek",
+      "coordinates": {
+        "X": -141.671387,
+        "Y": -974.160156,
+        "Z": 269.1353,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 345.67
+    },
+    {
+      "name": "dzwig",
+      "coordinates": {
+        "X": -112.622307,
+        "Y": -972.609436,
+        "Z": 296.285583,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 118.392387
+    },
+    {
+      "name": "vagos",
+      "coordinates": {
+        "X": 2587.17627,
+        "Y": 3053.291,
+        "Z": 45.11905,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 311.218781
+    },
+    {
+      "name": "maze bang",
+      "coordinates": {
+        "X": -77.06984,
+        "Y": -817.4127,
+        "Z": 326.17514,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 123.544876
+    },
+    {
+      "name": "LONG",
+      "coordinates": {
+        "X": 28.1053448,
+        "Y": -752.684937,
+        "Z": 43.6696663,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 7.862472
+    },
+    {
+      "name": "Punto 1",
+      "coordinates": {
+        "X": 824.96875,
+        "Y": 2144.24,
+        "Z": 52.291214,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 65.51693
+    },
+    {
+      "name": "alvaro",
+      "coordinates": {
+        "X": -417.1688,
+        "Y": 1151.39709,
+        "Z": 326.875671,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 11.47137
+    },
+    {
+      "name": "stunt",
+      "coordinates": {
+        "X": 1475.10974,
+        "Y": 2735.79663,
+        "Z": 37.2724533,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 124.7513
+    },
+    {
+      "name": "big stunt",
+      "coordinates": {
+        "X": 1464.08081,
+        "Y": 2723.39722,
+        "Z": 37.1868744,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 299.369354
+    },
+    {
+      "name": "222",
+      "coordinates": {
+        "X": -2.66735435,
+        "Y": 1.41265607,
+        "Z": -39.7899971,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 86.33445
+    },
+    {
+      "name": "t1",
+      "coordinates": {
+        "X": 125.064804,
+        "Y": -618.870667,
+        "Z": 206.046768,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 311.313873
+    },
+    {
+      "name": "hookies",
+      "coordinates": {
+        "X": -2196.748,
+        "Y": 4261.26855,
+        "Z": 48.1574135,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 39.29139
+    },
+    {
+      "name": "Stunt",
+      "coordinates": {
+        "X": 225.841278,
+        "Y": -1078.154,
+        "Z": 28.5491619,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 13.2267456
+    },
+    {
+      "name": "Start Rally",
+      "coordinates": {
+        "X": 1561.90894,
+        "Y": 887.2173,
+        "Z": 77.25211,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 317.523682
+    },
+    {
+      "name": "cayo",
+      "coordinates": {
+        "X": -166.180847,
+        "Y": -991.534546,
+        "Z": 254.127,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 350.1301
+    },
+    {
+      "name": "PISTOL",
+      "coordinates": {
+        "X": -292.584869,
+        "Y": -2107.92456,
+        "Z": 22.31515,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 96.9714
+    },
+    {
+      "name": "STart rallye",
+      "coordinates": {
+        "X": 2520.25073,
+        "Y": 1963.96741,
+        "Z": 19.1498413,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 38.8813362
+    },
+    {
+      "name": "Jump",
+      "coordinates": {
+        "X": -436.522766,
+        "Y": -840.772034,
+        "Z": 30.2487373,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 90.0822
+    },
+    {
+      "name": "Rally Start 2",
+      "coordinates": {
+        "X": 1980.25635,
+        "Y": 2269.86035,
+        "Z": 92.873024,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 4.846064
+    },
+    {
+      "name": "Bump cdt ",
+      "coordinates": {
+        "X": -1726.39209,
+        "Y": 2278.121,
+        "Z": 77.82508,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 42.0736046
+    },
+    {
+      "name": "Chiliad",
+      "coordinates": {
+        "X": 443.31546,
+        "Y": 5579.46045,
+        "Z": 794.1497,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 69.0393753
+    },
+    {
+      "name": "Banque",
+      "coordinates": {
+        "X": 8.304537,
+        "Y": -669.489441,
+        "Z": 16.1306076,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 59.4232368
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 891.64325,
+        "Y": -3245.57739,
+        "Z": -98.26721,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 111.2181
+    },
+    {
+      "name": "Bunker entrée",
+      "coordinates": {
+        "X": -391.270264,
+        "Y": 4353.92627,
+        "Z": 57.69053,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 190.565674
+    },
+    {
+      "name": "ssssss",
+      "coordinates": {
+        "X": -391.2655,
+        "Y": 4353.934,
+        "Z": 57.6915359,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 190.51416
+    },
+    {
+      "name": "Bureau",
+      "coordinates": {
+        "X": -76.74028,
+        "Y": -827.0378,
+        "Z": 243.385925,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 333.7266
+    },
+    {
+      "name": "Bureau entrée",
+      "coordinates": {
+        "X": -81.07167,
+        "Y": -798.064,
+        "Z": 44.2272949,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 190.88945
+    },
+    {
+      "name": "Appartement entrée",
+      "coordinates": {
+        "X": -776.869,
+        "Y": 312.626282,
+        "Z": 85.69812,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 5.409922
+    },
+    {
+      "name": "Appartement",
+      "coordinates": {
+        "X": -775.085632,
+        "Y": 341.66922,
+        "Z": 196.686234,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 102.245773
+    },
+    {
+      "name": "Rally Start 3",
+      "coordinates": {
+        "X": 163.380646,
+        "Y": 4426.631,
+        "Z": 75.94799,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 63.47338
+    },
+    {
+      "name": "RYAN",
+      "coordinates": {
+        "X": 214.305161,
+        "Y": 2524.82422,
+        "Z": 52.6380577,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 13.1078911
+    },
+    {
+      "name": "RYANNN",
+      "coordinates": {
+        "X": 222.27179,
+        "Y": 2522.45,
+        "Z": 52.9171448,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 191.277145
+    },
+    {
+      "name": "END CIRCUIT",
+      "coordinates": {
+        "X": -179.538879,
+        "Y": 2417.362,
+        "Z": 87.126976,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 355.3349
+    },
+    {
+      "name": "building",
+      "coordinates": {
+        "X": -149.884964,
+        "Y": -959.5764,
+        "Z": 268.614441,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 353.358643
+    },
+    {
+      "name": "Cayo Perico Location",
+      "coordinates": {
+        "X": 4448.629,
+        "Y": -4483.204,
+        "Z": 4.22893,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 201.3741
+    },
+    {
+      "name": "2",
+      "coordinates": {
+        "X": 169.320969,
+        "Y": 186.218063,
+        "Z": 105.836952,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 247.142715
+    },
+    {
+      "name": "Bunker 2",
+      "coordinates": {
+        "X": 486.3773,
+        "Y": 3004.56177,
+        "Z": 42.4699974,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 146.541275
+    },
+    {
+      "name": "areport",
+      "coordinates": {
+        "X": -787.452637,
+        "Y": -2052.48267,
+        "Z": 9.032438,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 335.540039
+    }
+  ],
+  "blips": [
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": 442.18,
+        "Y": -983.14,
+        "Z": 30.1,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": -1094.83,
+        "Y": -836.18,
+        "Z": 38.06,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": 825.62,
+        "Y": -1290.11,
+        "Z": 28.24,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": -560.62,
+        "Y": -133.38,
+        "Z": 38.08,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": 1853.82,
+        "Y": 3686.43,
+        "Z": 34.27,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Police Station",
+      "coordinates": {
+        "X": -445.8,
+        "Y": 6014.2,
+        "Z": 31.71,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 526,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation With Range",
+      "coordinates": {
+        "X": 21.13,
+        "Y": -1108.05,
+        "Z": 29.79,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 313,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation With Range",
+      "coordinates": {
+        "X": 812.37,
+        "Y": -2157.64,
+        "Z": 29.61,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 313,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": -663.57,
+        "Y": -939.91,
+        "Z": 21.82,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": 2569.44,
+        "Y": 300.06,
+        "Z": 108.73,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": -1310.64,
+        "Y": -392.84,
+        "Z": 36.69,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": 248.45,
+        "Y": -47.13,
+        "Z": 69.94,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": -1115.16,
+        "Y": 2695.98,
+        "Z": 18.55,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": 1696.98,
+        "Y": 3754.87,
+        "Z": 34.7,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": -327.41,
+        "Y": 6080.03,
+        "Z": 31.45,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": -3167.55,
+        "Y": 1084.48,
+        "Z": 20.83,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Ammu-Nation",
+      "coordinates": {
+        "X": 843.89,
+        "Y": -1027.62,
+        "Z": 28.19,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 110,
+      "color": 0
+    },
+    {
+      "name": "Golf Club",
+      "coordinates": {
+        "X": -1369.88,
+        "Y": 57.38,
+        "Z": 53.7,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 109,
+      "color": 0
+    },
+    {
+      "name": "Fort Zancudo",
+      "coordinates": {
+        "X": -2086.37,
+        "Y": 3080.96,
+        "Z": 32.81,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 419,
+      "color": 0
+    },
+    {
+      "name": "Horse Race Track",
+      "coordinates": {
+        "X": 1151.84,
+        "Y": 119.37,
+        "Z": 81.87,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 309,
+      "color": 0
+    },
+    {
+      "name": "Prison",
+      "coordinates": {
+        "X": 1693.35,
+        "Y": 2605.47,
+        "Z": 45.56,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 58,
+      "color": 0
+    },
+    {
+      "name": "Cave",
+      "coordinates": {
+        "X": 3109.63,
+        "Y": 2192.22,
+        "Z": 8.59,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 162,
+      "color": 0
+    },
+    {
+      "name": "N.O.O.S.E Facility",
+      "coordinates": {
+        "X": 2506.0,
+        "Y": -382.86,
+        "Z": 94.12,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 60,
+      "color": 0
+    },
+    {
+      "name": "Vehicle Impound",
+      "coordinates": {
+        "X": 395.18,
+        "Y": -1615.73,
+        "Z": 29.29,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 225,
+      "color": 0
+    },
+    {
+      "name": "Hospital",
+      "coordinates": {
+        "X": 306.58,
+        "Y": -1435.32,
+        "Z": 29.8,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 61,
+      "color": 0
+    },
+    {
+      "name": "Hospital",
+      "coordinates": {
+        "X": 305.0,
+        "Y": -583.0,
+        "Z": 50.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 61,
+      "color": 0
+    },
+    {
+      "name": "Hospital",
+      "coordinates": {
+        "X": -463.67,
+        "Y": -338.42,
+        "Z": 34.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 61,
+      "color": 0
+    },
+    {
+      "name": "Hospital",
+      "coordinates": {
+        "X": 1828.13,
+        "Y": 3667.26,
+        "Z": 34.28,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 61,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 1689.29,
+        "Y": 4820.49,
+        "Z": 42.06,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 1199.0,
+        "Y": 2706.09,
+        "Z": 38.22,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 78.62,
+        "Y": -1391.16,
+        "Z": 29.37,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 422.37,
+        "Y": -807.84,
+        "Z": 29.49,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -1196.41,
+        "Y": -774.02,
+        "Z": 17.32,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 0.61,
+        "Y": 6514.44,
+        "Z": 31.87,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 124.54,
+        "Y": -218.71,
+        "Z": 54.55,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -1097.86,
+        "Y": 2708.82,
+        "Z": 19.11,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -3170.29,
+        "Y": 1051.89,
+        "Z": 20.86,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -818.76,
+        "Y": -1076.82,
+        "Z": 11.33,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -162.18,
+        "Y": -302.3,
+        "Z": 39.71,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": -712.28,
+        "Y": -154.21,
+        "Z": 37.41,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Clothes Store",
+      "coordinates": {
+        "X": 617.84,
+        "Y": 2756.28,
+        "Z": 42.09,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 73,
+      "color": 0
+    },
+    {
+      "name": "Mask Store",
+      "coordinates": {
+        "X": -1336.3,
+        "Y": -1277.71,
+        "Z": 4.87,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 362,
+      "color": 0
+    },
+    {
+      "name": "Tattoo Parlor",
+      "coordinates": {
+        "X": -3169.42,
+        "Y": 1074.76,
+        "Z": 20.83,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 75,
+      "color": 0
+    },
+    {
+      "name": "Tattoo Parlor",
+      "coordinates": {
+        "X": 1862.07,
+        "Y": 3749.95,
+        "Z": 33.03,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 75,
+      "color": 0
+    },
+    {
+      "name": "Tattoo Parlor",
+      "coordinates": {
+        "X": 322.11,
+        "Y": 180.81,
+        "Z": 103.59,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 75,
+      "color": 0
+    },
+    {
+      "name": "Tattoo Parlor",
+      "coordinates": {
+        "X": -1153.31,
+        "Y": -1425.48,
+        "Z": 4.95,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 75,
+      "color": 0
+    },
+    {
+      "name": "Barber",
+      "coordinates": {
+        "X": 1212.17,
+        "Y": -472.87,
+        "Z": 66.21,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 71,
+      "color": 0
+    },
+    {
+      "name": "Barber",
+      "coordinates": {
+        "X": 1933.21,
+        "Y": 3727.99,
+        "Z": 32.84,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 71,
+      "color": 0
+    },
+    {
+      "name": "Barber",
+      "coordinates": {
+        "X": 134.77,
+        "Y": -1710.31,
+        "Z": 29.29,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 71,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 1159.44,
+        "Y": -323.77,
+        "Z": 69.21,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 1166.78,
+        "Y": 2708.1,
+        "Z": 38.15,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 544.5,
+        "Y": 2669.01,
+        "Z": 42.15,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 1393.15,
+        "Y": 3602.0,
+        "Z": 34.98,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -1225.3,
+        "Y": -905.1,
+        "Z": 12.33,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -3041.25,
+        "Y": 589.09,
+        "Z": 7.91,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -2970.96,
+        "Y": 309.88,
+        "Z": 15.04,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 1701.72,
+        "Y": 4927.75,
+        "Z": 42.06,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -50.7,
+        "Y": -1755.71,
+        "Z": 29.42,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -3241.03,
+        "Y": 1004.56,
+        "Z": 12.83,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 2680.96,
+        "Y": 3282.95,
+        "Z": 55.24,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 1964.67,
+        "Y": 3741.8,
+        "Z": 32.34,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": -1488.68,
+        "Y": -381.17,
+        "Z": 40.16,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 377.0,
+        "Y": 324.88,
+        "Z": 103.57,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 2558.06,
+        "Y": 385.81,
+        "Z": 108.62,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Store",
+      "coordinates": {
+        "X": 29.04,
+        "Y": -1347.47,
+        "Z": 29.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 52,
+      "color": 0
+    },
+    {
+      "name": "Benny's",
+      "coordinates": {
+        "X": -211.6,
+        "Y": -1323.28,
+        "Z": 30.8,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 446,
+      "color": 28
+    },
+    {
+      "name": "Los Santos Customs",
+      "coordinates": {
+        "X": -352.94,
+        "Y": -135.84,
+        "Z": 39.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 72,
+      "color": 0
+    },
+    {
+      "name": "Los Santos Customs",
+      "coordinates": {
+        "X": 729.16,
+        "Y": -1088.22,
+        "Z": 22.17,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 72,
+      "color": 0
+    },
+    {
+      "name": "Los Santos Customs",
+      "coordinates": {
+        "X": -1148.52,
+        "Y": -1994.11,
+        "Z": 13.18,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 72,
+      "color": 0
+    },
+    {
+      "name": "Los Santos Customs",
+      "coordinates": {
+        "X": 1179.05,
+        "Y": 2644.0,
+        "Z": 37.79,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 72,
+      "color": 0
+    },
+    {
+      "name": "Los Santos Customs",
+      "coordinates": {
+        "X": 110.7,
+        "Y": 6625.64,
+        "Z": 31.78,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 72,
+      "color": 0
+    },
+    {
+      "name": "Helicopter Pad",
+      "coordinates": {
+        "X": -735.56,
+        "Y": -1456.48,
+        "Z": 5.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 360,
+      "color": 0
+    },
+    {
+      "name": "Harbor",
+      "coordinates": {
+        "X": -854.76,
+        "Y": -1424.97,
+        "Z": 5.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 356,
+      "color": 0
+    },
+    {
+      "name": "Del Perro Pier",
+      "coordinates": {
+        "X": -1843.59,
+        "Y": -1219.52,
+        "Z": 12.81,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 266,
+      "color": 0
+    },
+    {
+      "name": "Strip Club",
+      "coordinates": {
+        "X": 126.55,
+        "Y": -1289.25,
+        "Z": 29.28,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 121,
+      "color": 0
+    },
+    {
+      "name": "Tequi-la-la",
+      "coordinates": {
+        "X": -555.16,
+        "Y": 284.97,
+        "Z": 82.17,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 93,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": -818.05,
+        "Y": 177.76,
+        "Z": 72.22,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": 1985.481,
+        "Y": 3828.768,
+        "Z": 32.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": -1117.163,
+        "Y": 303.0907,
+        "Z": 66.52217,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": 1395.17,
+        "Y": 1141.81,
+        "Z": 114.63,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": 5.09,
+        "Y": 532.59,
+        "Z": 175.34,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": -14.69,
+        "Y": -1439.27,
+        "Z": 31.1,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Safehouse",
+      "coordinates": {
+        "X": -3086.428,
+        "Y": 339.2523,
+        "Z": 6.3717,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 40,
+      "color": 0
+    },
+    {
+      "name": "Redwood Lights Race Track",
+      "coordinates": {
+        "X": 1022.5,
+        "Y": 2408.15,
+        "Z": 55.22,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 127,
+      "color": 0
+    },
+    {
+      "name": "Simeon's Showroom",
+      "coordinates": {
+        "X": -47.1617,
+        "Y": -1115.333,
+        "Z": 26.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 369,
+      "color": 0
+    },
+    {
+      "name": "Jewel Store",
+      "coordinates": {
+        "X": -637.2016,
+        "Y": -239.1625,
+        "Z": 38.1,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 439,
+      "color": 0
+    },
+    {
+      "name": "Union Depository Heist",
+      "coordinates": {
+        "X": 2.696893,
+        "Y": -667.0166,
+        "Z": 16.13063,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 107,
+      "color": 0
+    },
+    {
+      "name": "Morgue",
+      "coordinates": {
+        "X": 239.752,
+        "Y": -1360.65,
+        "Z": 39.53437,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 162,
+      "color": 0
+    },
+    {
+      "name": "Cluckin Bell",
+      "coordinates": {
+        "X": -146.3837,
+        "Y": 6161.5,
+        "Z": 30.2062,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 162,
+      "color": 0
+    },
+    {
+      "name": "O'Neil Brothers",
+      "coordinates": {
+        "X": 2447.9,
+        "Y": 4973.4,
+        "Z": 47.7,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 140,
+      "color": 0
+    },
+    {
+      "name": "FIB Building",
+      "coordinates": {
+        "X": 105.4557,
+        "Y": -745.4835,
+        "Z": 44.7548,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 475,
+      "color": 0
+    },
+    {
+      "name": "Lester's Factory",
+      "coordinates": {
+        "X": 716.84,
+        "Y": -962.05,
+        "Z": 31.59,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Life Invader",
+      "coordinates": {
+        "X": -1047.9,
+        "Y": -233.0,
+        "Z": 39.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 475,
+      "color": 0
+    },
+    {
+      "name": "Carwash",
+      "coordinates": {
+        "X": 55.7,
+        "Y": -1391.3,
+        "Z": 30.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 100,
+      "color": 0
+    },
+    {
+      "name": "Carwash",
+      "coordinates": {
+        "X": -700.01,
+        "Y": -933.06,
+        "Z": 18.48,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 100,
+      "color": 0
+    },
+    {
+      "name": "The Lost",
+      "coordinates": {
+        "X": 49.49379,
+        "Y": 3744.472,
+        "Z": 46.38629,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 226,
+      "color": 0
+    },
+    {
+      "name": "The Lost",
+      "coordinates": {
+        "X": 984.1552,
+        "Y": -95.3662,
+        "Z": 74.5,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 226,
+      "color": 0
+    },
+    {
+      "name": "Heist Aircraft Carrier",
+      "coordinates": {
+        "X": 3082.312,
+        "Y": -4717.119,
+        "Z": 15.2622,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 455,
+      "color": 0
+    },
+    {
+      "name": "Heist Yacht",
+      "coordinates": {
+        "X": -2043.974,
+        "Y": -1031.582,
+        "Z": 11.981,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 455,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 848.0,
+        "Y": 3004.0,
+        "Z": 44.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 2118.0,
+        "Y": 3330.0,
+        "Z": 46.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 2491.0,
+        "Y": 3150.0,
+        "Z": 50.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 486.0,
+        "Y": 3005.0,
+        "Z": 42.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": -391.0,
+        "Y": 4354.0,
+        "Z": 57.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 1815.0,
+        "Y": 4706.0,
+        "Z": 41.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 1571.0,
+        "Y": 2241.0,
+        "Z": 79.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": -772.0,
+        "Y": 5938.0,
+        "Z": 23.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": 31.0,
+        "Y": 2945.0,
+        "Z": 58.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": -3046.0,
+        "Y": 3331.0,
+        "Z": 11.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bunker",
+      "coordinates": {
+        "X": -3171.0,
+        "Y": 1375.0,
+        "Z": 18.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 473,
+      "color": 0
+    },
+    {
+      "name": "Bahama Mamas",
+      "coordinates": {
+        "X": -1388.001,
+        "Y": -618.4197,
+        "Z": 30.8196,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 93,
+      "color": 0
+    },
+    {
+      "name": "Aircraft Hangar",
+      "coordinates": {
+        "X": -1152.17,
+        "Y": -3410.83,
+        "Z": 13.95,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 359,
+      "color": 0
+    },
+    {
+      "name": "Aircraft Hangar",
+      "coordinates": {
+        "X": -1395.4,
+        "Y": -3266.66,
+        "Z": 13.95,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 359,
+      "color": 0
+    },
+    {
+      "name": "Aircraft Hangar",
+      "coordinates": {
+        "X": -2470.22,
+        "Y": 3274.79,
+        "Z": 32.83,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 359,
+      "color": 0
+    },
+    {
+      "name": "Aircraft Hangar",
+      "coordinates": {
+        "X": -2021.5,
+        "Y": 3157.4,
+        "Z": 32.81,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 359,
+      "color": 0
+    },
+    {
+      "name": "Aircraft Hangar",
+      "coordinates": {
+        "X": -1878.01,
+        "Y": 3108.85,
+        "Z": 32.81,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "spriteID": 359,
+      "color": 0
+    }
+  ]
+}
